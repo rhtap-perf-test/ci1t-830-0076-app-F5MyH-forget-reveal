@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-zyha
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0076-tenant/ci1t-830-0076-app/devfile-sample-zyha@sha256:73daf7cdcb33c481a5cbfe38c87b5a71e3054be101abb58aa119b5701937c75e
         name: my-nodejs
         ports:
         - containerPort: 3001
