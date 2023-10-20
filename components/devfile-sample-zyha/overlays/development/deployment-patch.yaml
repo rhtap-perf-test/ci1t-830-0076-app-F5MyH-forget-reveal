@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-zyha
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0076-tenant/ci1t-830-0076-app/devfile-sample-zyha@sha256:73daf7cdcb33c481a5cbfe38c87b5a71e3054be101abb58aa119b5701937c75e
+        name: my-nodejs
+        resources: {}
+status: {}
